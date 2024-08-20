@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.text{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(62, 62, 95);
+    color:antiquewhite;
+    height:300px;
+}
+.text p{
+    padding: 5px;
+}
