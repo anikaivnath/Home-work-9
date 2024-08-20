@@ -8,8 +8,35 @@
     padding: 50px;
     background-color: rgb(62, 62, 95);
     color:antiquewhite;
-    height:300px;
+    height:200px;
+
 }
 .text p{
     padding: 5px;
+}
+#team{
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    height: 150px;
+}
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    box-shadow: rgb(62, 62, 95);
+    margin-left: 100px;
+    text-align: justify;
+    grid-gap: 10px;
+}
+button{
+    margin-top: 10px;
+    padding: 0px 100px;
+    color: antiquewhite;
+    background-color: black;
+}
+.box1{
+    box-shadow:  8px 4px 8px grey;;
 }
