@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+ font-family: "Roboto", sans-serif;;
+}
 .text{
     text-align: center;
     padding: 50px;
@@ -20,23 +23,50 @@
 }
 img{
     height: 150px;
+    width: 313px;
+   
+    border-radius: 10px;
+   
 }
 .container{
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-gap: 70px;
+    grid-template-columns: 25% 25% 25%;
     justify-content: center;
-    box-shadow: rgb(62, 62, 95);
     margin-left: 100px;
-    text-align: justify;
-    grid-gap: 10px;
+    
+   
+   
+   
 }
 button{
     margin-top: 10px;
-    padding: 0px 100px;
+    padding: 9px 95px;
+    margin-left: 5px;
     color: antiquewhite;
     background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 27px;
+    margin-bottom: 10px;
 }
-.box1{
-    box-shadow:  8px 4px 8px grey;;
+
+.txt2{
+    width: 300px;
+}
+.txt{
+    color: grey;
+
+}
+.box1 {
+    width: 100%;
+    box-shadow: 0px 4px 8px grey;
+    border-radius: 10px;
+    
+   
+}
+.new{
+ padding-left: 10px;
+  
 }
